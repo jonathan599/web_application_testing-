@@ -7,7 +7,7 @@ services:
 
 before_install:
 - docker build -t flask-demo-app .
-- docker run -d --name app flask-demo-app
+- docker run -d --name webapp flask-demo-app
 - docker ps -a
 
 script:
